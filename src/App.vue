@@ -7,6 +7,6 @@ const count = ref(0);
 <template>
   <h1>{{ count }}</h1>
   <button @click="count == 0 ? count++ : count--">
-    {{ <count></count> == 0 ? "+" : "-" }}
+    {{ count == 0 ? "+" : "-" }}
   </button>
 </template>
