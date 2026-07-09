@@ -5,6 +5,6 @@ const count = ref(0);
 </script>
 
 <template>
-  <h1>{{ count }}</h1>
+  <h1></h1>
 
 </template>
