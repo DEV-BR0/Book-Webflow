@@ -1,12 +1,11 @@
 <script setup>
-import { ref } from "vue";
-import HelloWorld from "./components/HelloWorld.vue";
-
-const count = ref(0);
+import { RouterView } from "vue-router";
+import Navbar from "./components/Navbar.vue";
 </script>
 
 <template>
-  <HelloWorld />
-  <h1>{{ count }}</h1>
-  <button @click="count++">+</button>
+  <div class="app flex flex-col gap-[20px]">
+    <Navbar />
+    <RouterView />
+  </div>
 </template>
