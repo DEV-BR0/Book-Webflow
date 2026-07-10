@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: inner;
+  src: url("../fonts/Cardo/Cardo-Italic.ttf");
+}
+
 .contenr {
   max-width: 1300px;
   width: 100%;
