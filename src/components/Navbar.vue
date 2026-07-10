@@ -9,14 +9,20 @@ import { RouterLink } from "vue-router";
         <Icon color="#FFCA42" icon="lucide:bookmark" width="24" />
         <p class="font-bold text-white text-[25px]">Book WebFlow</p>
         <div class="flex gap-[10px]">
-          <div class="p-[10px] w-[40px] bg-white flex justify-center items-center">
-            <Icon icon="fa-brands:facebook-f" width="18" color="#1B3764" />
+          <div
+            class="p-[10px] w-[40px] bg-white hover:text-white flex text-[#1B3764] justify-center items-center hover:bg-blue-500 transition duration-200"
+          >
+            <Icon icon="fa-brands:facebook-f" width="18" />
           </div>
-          <div  class="p-[10px] w-[40px] bg-white flex justify-center items-center">
-            <Icon icon="fa-brands:twitter" width="18" color="#1B3764" />
+          <div
+            class="p-[10px] w-[40px] bg-white hover:text-white flex text-[#1B3764] justify-center items-center hover:bg-blue-500 transition duration-200"
+          >
+            <Icon icon="fa-brands:twitter" width="18" />
           </div>
-          <div class="p-[10px] w-[40px] bg-white flex justify-center items-center">
-            <Icon icon="fa-brands:linkedin-in" width="18"  color="#1B3764"/>
+          <div
+            class="p-[10px] w-[40px] bg-white hover:text-white flex text-[#1B3764] justify-center items-center hover:bg-blue-500 transition duration-200"
+          >
+            <Icon icon="fa-brands:linkedin-in" width="18" />
           </div>
         </div>
       </div>
