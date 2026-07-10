@@ -41,7 +41,7 @@ onMounted(() => {
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/service">Services</RouterLink>
-        <RouterLink to="/about">Contact</RouterLink>
+        <RouterLink to="/contact">Contact</RouterLink>
         <button>
           <ShoppingCart />
         </button>

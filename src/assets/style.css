@@ -4,6 +4,10 @@
   font-family: inner;
   src: url("../fonts/Cardo/Cardo-Italic.ttf");
 }
+@font-face {
+  font-family: innes;
+  src: url("../fonts/Cardo/Cardo-Regular.ttf");
+}
 
 .contenr {
   max-width: 1300px;
