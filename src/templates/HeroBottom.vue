@@ -1,3 +1,21 @@
+<script setup>
+import { onMounted, ref } from "vue";
+import { apiCleant } from "../composables/onAxios";
+
+const data = ref([]);
+
+onMounted(async () => {
+  try {
+    const res = await apiCleant.get("/Books");
+    data.value = res.data;
+  } catch (error) {
+    console.log(error.message);
+  }
+});
+
+console.log(data.value);
+</script>
+
 <template>
   <div
     data-aos="fade-up"
@@ -9,15 +27,7 @@
       Author’s Book Includes
     </h1>
     <div class="flex w-full justify-between gap-[70px]">
-
-
-      {{ 
-        
-        
-        
-        
-        
-        }}
+      {{}}
       <div class="flex grow lg:flex-row flex-col">
         <img
           src="../images/one.png"
