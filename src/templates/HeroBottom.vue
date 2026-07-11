@@ -5,7 +5,7 @@
     </h1>
     <div class="flex w-full justify-between gap-[70px] ">
       <div class="flex grow lg:flex-row flex-col">
-        <img src="../images/one.png" alt="Book-Photo" />
+        <img src="../images/one.png" alt="Book-Photo" class="w-[200px] lg:w-auto " />
         <div class="flex flex-col gap-[20px]">
           <p class="text-[#1B3764] text-[32px]">Atomic One’s</p>
           <p class="line-clamp-3 text-[#969AA0] text-[19px] max-w-[300px]">
@@ -40,7 +40,7 @@
         </div>
       </div>
       <div class="flex grow lg:flex-row flex-col">
-        <img src="../images/two.png" alt="Book-Photo" />
+        <img src="../images/two.png" alt="Book-Photo" class="w-[200px]  lg:w-auto"/>
         <div class="flex flex-col gap-[20px]">
           <p class="text-[#1B3764] text-[32px]">Atomic One’s</p>
           <p class="line-clamp-3 text-[#969AA0] text-[19px] max-w-[300px]">
