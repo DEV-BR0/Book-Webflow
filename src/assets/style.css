@@ -9,6 +9,10 @@
   src: url("../fonts/Cardo/Cardo-Regular.ttf");
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 .contenr {
   max-width: 1300px;
   width: 100%;
@@ -16,4 +20,3 @@
   padding-left: 15px;
   padding-right: 15px;
 }
-
