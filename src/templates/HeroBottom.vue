@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center flex-col w-full h-[70vh] items-center gap-[70px] mt-[220px]">
+  <div class="flex justify-center flex-col w-full h-[70vh] items-center gap-[70px] ">
     <h1 class="text-[#1B3764] font-[innes] text-[46px] font-bold">
       Author’s Book Includes
     </h1>
