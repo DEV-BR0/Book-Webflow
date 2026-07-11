@@ -1,8 +1,7 @@
 <script setup>
 import { onMounted, ref } from "vue";
-import { apiCleant } from "../composables/onAxios";
-
-const data = ref([]);
+import { apiCleant } from "../../composables/onAxios";
+const data = ref(null);
 
 onMounted(async () => {
   try {
@@ -12,8 +11,6 @@ onMounted(async () => {
     console.log(error.message);
   }
 });
-
-console.log(data.value);
 </script>
 
 <template>
@@ -26,11 +23,14 @@ console.log(data.value);
     >
       Author’s Book Includes
     </h1>
-    <div class="flex w-full justify-between gap-[70px]">
-      {{}}
+    <div
+      v-for="book in data"
+      :key="book.id"
+      class="flex w-full justify-between gap-[70px]"
+    >
       <div class="flex grow lg:flex-row flex-col">
         <img
-          src="../images/one.png"
+          src="{{book.image}}"
           alt="Book-Photo"
           class="w-[200px] lg:w-auto"
         />

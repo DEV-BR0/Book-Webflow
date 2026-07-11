@@ -51,7 +51,7 @@
       </div>
     </div>
     <div class="flex grow">
-      <img src="./../images/Book.png" alt="photo" class="flex lg:grow w-[300px] lg:w-auto" />
+      <img src="./../../images/Book.png" alt="photo" class="flex lg:grow w-[300px] lg:w-auto" />
     </div>
   </div>
 </template>

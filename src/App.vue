@@ -6,6 +6,8 @@ import Navbar from "./components/Navbar.vue";
 <template>
   <div class="app flex flex-col gap-[20px]">
     <Navbar />
-    <RouterView />
+    <main class="pt-[60px] md:pt-[83px]">
+      <RouterView />
+    </main>
   </div>
 </template>
