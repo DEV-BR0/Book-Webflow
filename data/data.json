@@ -3,20 +3,18 @@
     {
       "id": 1,
       "title": "Atomic One's",
-      "image": "./src/images/one.png",
+      "image": "/images/one.png",
       "description": "Many variations of passages of Lorem Ipsum willing araise alteration in some form.",
       "pages": 586,
-      "length": "10 Hours",
-      "button": "Order Today"
+      "length": "10 Hours"
     },
     {
       "id": 2,
       "title": "The Dark Light",
-      "image": "./src/images/two.png",
+      "image": "/images/two.png",
       "description": "Many variations of passages of Lorem Ipsum willing araise alteration in some form.",
       "pages": 720,
-      "length": "12 Hours",
-      "button": "Order Today"
+      "length": "12 Hours"
     }
   ]
 }

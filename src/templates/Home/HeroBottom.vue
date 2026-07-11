@@ -16,59 +16,60 @@ onMounted(async () => {
 <template>
   <div
     data-aos="fade-up"
-    class="flex justify-center flex-col w-full h-[70vh] items-center gap-[70px]"
+    class="flex justify-center flex-col w-full h-[30vh] sm:h-[50vh] justify-center items-center ld:flex-row gap-[50px]"
   >
     <h1
       class="text-[#1B3764] font-[innes] text-[23px] md:text-[46px] font-bold"
     >
       Author’s Book Includes
     </h1>
-    <div
-      v-for="book in data"
-      :key="book.id"
-      class="flex w-full justify-between gap-[70px]"
-    >
-      <div class="flex grow lg:flex-row flex-col">
-        <img
-          src="{{book.image}}"
-          alt="Book-Photo"
-          class="w-[200px] lg:w-auto"
-        />
-        <div class="flex flex-col gap-[20px]">
-          <p class="text-[#1B3764] md:text-[32px] text-[19px] font-bold">
-            Atomic One’s
-          </p>
-          <p
-            class="line-clamp-3 text-[#969AA0] md:text-[19px] text-[15px] max-w-[300px]"
-          >
-            Many variations of passages of Lorem Ipsum willing araise alteration
-            in some form.
-          </p>
-          <div class="flex">
-            <div class="flex md:gap-[20px] gap-[7px] grow text-[#1B3764]">
-              <div
-                class="md:w-[16px] md:h-[16px] w-[7px] h-[7px] bg-[#FFCA42] rounded-[50%] mt-[8px]"
-              ></div>
-              <div class="flex flex-col gap-[10px]">
-                <p class="font-[innes] md:text-[21px] text-[14px]">Pages:</p>
-                <p>586pages</p>
+    <div class="flex w-full justify-between gap-[10px] lg:gap-[60px]">
+      <div
+        v-for="book in data"
+        :key="book.id"
+        class="flex w-full justify-between"
+      >
+        <div class="flex grow lg:flex-row flex-col">
+          <img
+            :src="book.image"
+            :alt="book.title"
+            class="w-[300px] lg:w-auto"
+          />
+          <div class="flex flex-col gap-[20px] hidden sm:flex">
+            <p class="text-[#1B3764] md:text-[32px] text-[19px] font-bold">
+              {{ book.title }}
+            </p>
+            <p
+              class="line-clamp-3 text-[#969AA0] md:text-[19px] text-[15px] max-w-[300px]"
+            >
+              {{ book.description }}
+            </p>
+            <div class="flex">
+              <div class="flex md:gap-[20px] gap-[7px] grow text-[#1B3764]">
+                <div
+                  class="md:w-[16px] md:h-[16px] w-[7px] h-[7px] bg-[#FFCA42] rounded-[50%] mt-[8px]"
+                ></div>
+                <div class="flex flex-col gap-[10px]">
+                  <p class="font-[innes] md:text-[21px] text-[14px]">Pages:</p>
+                  <p>{{ book.pages }}</p>
+                </div>
+              </div>
+              <div class="flex md:gap-[20px] gap-[7px] grow text-[#1B3764]">
+                <div
+                  class="md:w-[16px] md:h-[16px] w-[7px] h-[7px] bg-[#FFCA42] rounded-[50%] mt-[8px]"
+                ></div>
+                <div class="flex flex-col gap-[10px]">
+                  <p class="font-[innes] md:text-[21px] text-[14px]">Length:</p>
+                  <p>{{ book.length }}</p>
+                </div>
               </div>
             </div>
-            <div class="flex md:gap-[20px] gap-[7px] grow text-[#1B3764]">
-              <div
-                class="md:w-[16px] md:h-[16px] w-[7px] h-[7px] bg-[#FFCA42] rounded-[50%] mt-[8px]"
-              ></div>
-              <div class="flex flex-col gap-[10px]">
-                <p class="font-[innes] md:text-[21px] text-[14px]">Length:</p>
-                <p>10 Hours</p>
-              </div>
-            </div>
+            <button
+              class="border-[#FFCA42] border border-1 text-[#1B3764] hover:text-white hover:bg-[#1B3764] md:pt-[14px] md:pb-[14px] md:pl-[20px] md:pr-[20px] p-[10px] font-[inner] hover:rounded-2xl transition-all duration-200"
+            >
+              Order Today
+            </button>
           </div>
-          <button
-            class="border-[#FFCA42] border border-1 text-[#1B3764] hover:text-white hover:bg-[#1B3764] md:pt-[14px] md:pb-[14px] md:pl-[20px] md:pr-[20px] p-[10px] font-[inner] hover:rounded-2xl transition-all duration-200"
-          >
-            Order Today
-          </button>
         </div>
       </div>
     </div>
