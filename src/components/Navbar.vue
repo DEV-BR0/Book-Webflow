@@ -9,7 +9,7 @@ onMounted(() => {
 </script>
 <template>
   <div class="fixed top-0 left-0 w-full bg-[#1B3764] shadow-lg z-50">
-    <div class="contenr mx-auto flex justify-between items-center p-[10px]">
+    <div class="contenr mx-auto flex justify-between items-center p-[10px] ">
       <div class="flex gap-[10px] p-[8px] items-center ">
         <Icon color="#FFCA42" icon="lucide:bookmark" width="24" />
         <p class="font-bold text-white text-[18px] sm:text-[27px]">Book WebFlow</p>
@@ -46,7 +46,7 @@ onMounted(() => {
           <ShoppingCart />
         </button>
         <button
-          class="bg-[#FFCA42] text-[#1B3764] pt-[7px] pb-[7px] pl-[10px] pr-[10px] font-[inner] hover:rounded-2xl transition-all duration-200"
+          class="bg-[#FFCA42] text-[#1B3764] pt-[7px] pb-[7px] pl-[10px] pr-[10px] font-[inner] hover:rounded-2xl transition-all duration-200 hover:"
         >
           Order Today
         </button>
