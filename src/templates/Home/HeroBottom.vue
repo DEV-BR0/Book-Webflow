@@ -2,7 +2,6 @@
 import { onMounted, ref } from "vue";
 import { apiCleant } from "../../composables/onAxios";
 const data = ref(null);
-
 onMounted(async () => {
   try {
     const res = await apiCleant.get("/data/data.json");
@@ -13,7 +12,6 @@ onMounted(async () => {
 });
 
 console.log(data);
-
 </script>
 
 <template>
@@ -32,12 +30,8 @@ console.log(data);
         :key="book.id"
         class="flex w-full justify-between"
       >
+        <img :src="book.image" :alt="book.title" class="w-[300px] lg:w-auto" />
         <div class="flex grow lg:flex-row flex-col">
-          <img
-            :src="book.image"
-            :alt="book.title"
-            class="w-[300px] lg:w-auto"
-          />
           <div class="flex flex-col gap-[20px] hidden sm:flex">
             <p class="text-[#1B3764] md:text-[32px] text-[19px] font-bold">
               {{ book.title }}
