@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"vite\" \"json-server --watch ./data/data.json\"",
+    "dev": "concurrently \"vite\" \"json-server --watch ./public/data/data.json\"",
     "build": "vite build",
     "preview": "vite preview"
   },
