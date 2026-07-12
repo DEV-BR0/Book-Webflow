@@ -5,12 +5,15 @@ const data = ref(null);
 
 onMounted(async () => {
   try {
-    const res = await apiCleant.get("/Books");
-    data.value = res.data;
+    const res = await apiCleant.get("/data/data.json");
+    data.value = res.data.Books;
   } catch (error) {
     console.log(error.message);
   }
 });
+
+console.log(data);
+
 </script>
 
 <template>
