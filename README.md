@@ -1,7 +1,11 @@
 # Vue 3 + Vite
 
-Ushbu Projectm kitoblar sotuv uchun maxsus tayyorlayotkan web saytim
+This project is a modern and responsive book store website built with **Vue 3** and **Vite**. It provides users with a clean interface to explore books and delivers a smooth browsing experience.
 
-## texnalogyalar
+## Technologies
 
-`Vue 3 + vite, axios, VPS, Aos, tailwindcss`
+* Vue 3
+* Vite
+* Axios
+* AOS (Animate On Scroll)
+* Tailwind CSS
