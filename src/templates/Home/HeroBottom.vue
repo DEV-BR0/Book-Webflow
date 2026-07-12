@@ -10,8 +10,6 @@ onMounted(async () => {
     console.log(error.message);
   }
 });
-
-console.log(data);
 </script>
 
 <template>
