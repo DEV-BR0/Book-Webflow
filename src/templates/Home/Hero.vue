@@ -1,5 +1,5 @@
 <template>
-  <div class="lg:flex-row flex flex-col-reverse gap-[20px] ">
+  <div class="lg:flex-row flex flex-col-reverse gap-[20px] h-6/12  mt-[-100px]">
     <div class="flex grow flex-col gap-[40px]">
       <div class="flex items-center gap-[5px]">
         <div class="bg-amber-300 h-[1px] w-[50px]"></div>

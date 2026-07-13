@@ -10,7 +10,7 @@ import HeroBottom from '../templates/Home/HeroBottom.vue';
         <Hero />
       </div>
     </div>
-    <div class="contenr lg:mt-0 mt-[120px]">
+    <div class="contenr  mt-[120px]">
       <HeroBottom />
     </div>
   </div>
