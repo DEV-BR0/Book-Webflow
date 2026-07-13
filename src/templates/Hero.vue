@@ -21,7 +21,7 @@
           Order Today
         </button>
         <button
-          class="bg-[#ffffff00] text-white pt-[7px] pb-[7px] pl-[10px] pr-[10px] font-[inner] hover:rounded-2xl transition-all duration-200 underline underline-offset-[8px]"
+          class="bg-[#ffffff00] text-white pt-[7px] pb-[7px] pl-[10px] pr-[10px] font-[inner] hover:rounded-2xl transition-all duration-200 underline underline-offset-[8px] pt-[14px] pb-[14px] pl-[20px] pr-[20px]"
         >
           Read Free Demo
         </button>

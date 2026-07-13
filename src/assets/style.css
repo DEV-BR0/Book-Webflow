@@ -9,6 +9,28 @@
   src: url("../fonts/Cardo/Cardo-Regular.ttf");
 }
 
+button:hover {
+  cursor: pointer;
+}
+
+::-webkit-scrollbar{
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 70px;
+  background: #1B3764;
+  position: absolute
+}
+::-webkit-scrollbar-thumb:hover{
+  border-radius: 70px;
+  background: #24467cba;
+}
+
+::-webkit-scrollbar-track{
+  color: #1B3764;
+}
+
 .contenr {
   max-width: 1300px;
   width: 100%;
@@ -16,4 +38,3 @@
   padding-left: 15px;
   padding-right: 15px;
 }
-
