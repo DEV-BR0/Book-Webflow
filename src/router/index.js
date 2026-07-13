@@ -4,7 +4,7 @@ import About from "../pages/About.vue";
 import Services from "../pages/Services.vue";
 import Contact from "../pages/Contact.vue";
 
-const router = createRouter({
+export default const router = createRouter({
   history: createWebHistory(),
   routes: [
     {
@@ -30,4 +30,4 @@ const router = createRouter({
   ],
 });
 
-export default router;
+
