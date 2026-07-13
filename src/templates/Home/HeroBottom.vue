@@ -11,7 +11,6 @@ onMounted(async () => {
   }
 });
 </script>
-
 <template>
   <div
     data-aos="fade-up"
