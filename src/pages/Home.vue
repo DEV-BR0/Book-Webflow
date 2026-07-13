@@ -1,6 +1,6 @@
 <script setup>
-import Hero from "../templates/Hero.vue";
-import HeroBottom from '../templates/HeroBottom.vue';
+import Hero from '../templates/Home/Hero.vue';
+import HeroBottom from '../templates/Home/HeroBottom.vue';
 </script>
 
 <template>

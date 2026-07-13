@@ -6,8 +6,7 @@
       "image": "/images/one.png",
       "description": "Many variations of passages of Lorem Ipsum willing araise alteration in some form.",
       "pages": 586,
-      "length": "10 Hours",
-      "button": "Order Today"
+      "length": "10 Hours"
     },
     {
       "id": 2,
@@ -15,8 +14,7 @@
       "image": "/images/two.png",
       "description": "Many variations of passages of Lorem Ipsum willing araise alteration in some form.",
       "pages": 720,
-      "length": "12 Hours",
-      "button": "Order Today"
+      "length": "12 Hours"
     }
   ]
 }
