@@ -21,7 +21,7 @@ onMounted(async () => {
     >
       Author’s Book Includes
     </h1>
-    <div class="flex w-full justify-between gap-[10px] lg:gap-[60px] contenr">
+    <div class="flex w-full justify-between gap-[10px] lg:gap-[60px]">
       <div
         v-for="book in data"
         :key="book.id"
