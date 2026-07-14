@@ -14,7 +14,7 @@ onMounted(async () => {
 <template>
   <div
     data-aos="fade-up"
-    class="flex justify-center flex-col w-full h-[30vh] sm:h-[50vh] justify-center items-center ld:flex-row gap-[50px] mt-[120px]"
+    class="flex  flex-col items-center w-full"
   >
     <h1
       class="text-[#1B3764] font-[innes] text-[23px] md:text-[46px] font-bold"
@@ -29,7 +29,7 @@ onMounted(async () => {
       >
         <img :src="book.image" :alt="book.title" class="w-[300px] lg:w-auto" />
         <div class="flex grow lg:flex-row flex-col">
-          <div class="flex flex-col gap-[20px] hidden sm:flex">
+          <div class="flex flex-col gap-[20px] hidden md:flex">
             <p class="text-[#1B3764] md:text-[32px] text-[19px] font-bold">
               {{ book.title }}
             </p>
