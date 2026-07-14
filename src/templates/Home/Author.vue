@@ -27,11 +27,38 @@
         generator on the Internet. It uses a dictionary of over 200 Latin words,
         combined with a handful.
       </p>
-      <div class="flex">
-        <div class="flex flex-col ">
-          <p class="md:text-[55px] text-[26px] font-[innes] font-bold text-[#1B3764]">02</p>
-          <p class=" md:text-[18px] text-[14px] text-[#969AA0]">Books Published</p>
+      <div class="flex gap-[20px]">
+        <div class="flex flex-col grow">
+          <p
+            class="md:text-[55px] text-[26px] font-[innes] font-bold text-[#1B3764]"
+          >
+            02
+          </p>
+          <p class="md:text-[18px] text-[14px] text-[#969AA0]">
+            Books Published
+          </p>
         </div>
+        <hr class="border-1 h-full text-[#FFCA42]" />
+        <div class="flex flex-col grow">
+          <p
+            class="md:text-[55px] text-[26px] font-[innes] font-bold text-[#1B3764]"
+          >
+            4.5
+          </p>
+          <p class="md:text-[18px] text-[14px] text-[#969AA0]">User Reviews</p>
+        </div>
+        <hr class="border-1 h-full text-[#FFCA42]" />
+        <div class="flex flex-col grow">
+          <p
+            class="md:text-[55px] text-[26px] font-[innes] font-bold text-[#1B3764]"
+          >
+            04
+          </p>
+          <p class="md:text-[18px] text-[14px] text-[#969AA0]">Best Seller Awards</p>
+        </div>
+      </div>
+      <div class="flex">
+        
       </div>
     </div>
   </div>
