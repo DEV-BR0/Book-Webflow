@@ -18,7 +18,7 @@
     </div>
     <div class="flex flex-col grow gap-[40px]">
       <div class="title">
-        <p class="text-[45px] font-[innes] text-[#1B3764]">About Author</p>
+        <p class="md:text-[45px] text-[30px] font-[innes] text-[#1B3764]">About Author</p>
         <div class="border-1 border-[#FFCA42] h-[1px]"></div>
       </div>
       <p class="line-cap max-w-[567px] line-clamp-3">
@@ -54,11 +54,20 @@
           >
             04
           </p>
-          <p class="md:text-[18px] text-[14px] text-[#969AA0]">Best Seller Awards</p>
+          <p class="md:text-[18px] text-[14px] text-[#969AA0]">
+            Best Seller Awards
+          </p>
         </div>
       </div>
-      <div class="flex">
-        
+      <div class="flex p-[20px] bg-[#1B3764] gap-[40px]">
+        <div class="img">
+          <img src="../../../public/images/right-one.png" alt=" Qr code" class="w-[75%]" />
+        </div>
+        <div class="flex flex-col">
+          <p class="md:text-[22px] font-[innes] text-[#FFCA42] text-[16px]">John Abraham , Ph.d</p>
+          <p class="md:text-[22px] text-[#B4C7E7] text-[14px]">Mail : johnabraham@gmail.com</p>
+          <p class="md:text-[22px] text-[#B4C7E7] text-[16px]">Phone : (+2) 123 545 9000</p>
+        </div>
       </div>
     </div>
   </div>
