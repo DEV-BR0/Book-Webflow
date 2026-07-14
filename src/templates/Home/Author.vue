@@ -65,8 +65,8 @@
         </div>
         <div class="flex flex-col">
           <p class="md:text-[22px] font-[innes] text-[#FFCA42] text-[16px]">John Abraham , Ph.d</p>
-          <p class="md:text-[22px] text-[#B4C7E7] text-[14px]">Mail : johnabraham@gmail.com</p>
-          <p class="md:text-[22px] text-[#B4C7E7] text-[16px]">Phone : (+2) 123 545 9000</p>
+          <p class="md:text-[22px] text-[#B4C7E7] text-[14px]">Mail: johnabraham@gmail.com</p>
+          <p class="md:text-[22px] text-[#B4C7E7] text-[16px]">Phone: (+2) 123 545 9000</p>
         </div>
       </div>
     </div>
