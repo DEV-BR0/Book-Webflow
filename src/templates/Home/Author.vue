@@ -1,7 +1,7 @@
 <template>
   <div
     data-aos="fade-up"
-    class="flex md:justify-between w-full h-full flex-col md:flex-row justify-center gap-[60px]"
+    class="flex md:justify-between w-full h-full flex-col md:flex-row justify-center gap-[60px] mb-[30px]"
   >
     <!-- left -->
     <div class="relative flex flex-col grow">
