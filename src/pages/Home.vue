@@ -1,6 +1,7 @@
 <script setup>
-import Hero from '../templates/Home/Hero.vue';
-import HeroBottom from '../templates/Home/HeroBottom.vue';
+import Author from "../templates/Home/Author.vue";
+import Hero from "../templates/Home/Hero.vue";
+import HeroBottom from "../templates/Home/HeroBottom.vue";
 </script>
 
 <template>
@@ -10,8 +11,9 @@ import HeroBottom from '../templates/Home/HeroBottom.vue';
         <Hero />
       </div>
     </div>
-    <div class="contenr  mt-[120px]">
+    <div class="contenr mt-[120px]">
       <HeroBottom />
+      <Author />
     </div>
   </div>
 </template>
