@@ -11,7 +11,7 @@ import HeroBottom from "../templates/Home/HeroBottom.vue";
         <Hero />
       </div>
     </div>
-    <div class="contenr mt-[120px]">
+    <div class="contenr flex flex-col gap-[50px] md:gap-[139px]">
       <HeroBottom />
       <Author />
     </div>
