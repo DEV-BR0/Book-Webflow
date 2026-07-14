@@ -59,7 +59,7 @@
           </p>
         </div>
       </div>
-      <div class="flex p-[20px] bg-[#1B3764] gap-[40px]">
+      <div class="flex p-[14px] bg-[#1B3764] gap-[40px]">
         <div class="img">
           <img src="../../../public/images/right-one.png" alt=" Qr code" class="w-[75%]" />
         </div>
