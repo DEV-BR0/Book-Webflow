@@ -41,7 +41,7 @@
         </div>
         <div class="flex flex-col items-center mt-[20px] gap-[20px]">
           <p class="text-[#1B3764] text-[24px] font-[innes] font-bold">
-            Amazen Corp
+            Los Books
           </p>
           <p
             class="text-[#969AA0] text-[18px] line-clamp-2 max-w-[270px] text-center"
