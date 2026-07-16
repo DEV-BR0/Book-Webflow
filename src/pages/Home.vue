@@ -1,5 +1,6 @@
 <script setup>
 import Author from "../templates/Home/Author.vue";
+import Bast from "../templates/Home/Bast.vue";
 import Hero from "../templates/Home/Hero.vue";
 import HeroBottom from "../templates/Home/HeroBottom.vue";
 </script>
@@ -14,6 +15,7 @@ import HeroBottom from "../templates/Home/HeroBottom.vue";
     <div class="contenr flex flex-col gap-[50px] md:gap-[139px]">
       <HeroBottom />
       <Author />
+      <Bast />
     </div>
   </div>
 </template>
