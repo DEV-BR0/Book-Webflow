@@ -52,7 +52,7 @@
       </div>
         <div class="flex flex-col grow items-center">
           <div class="w-[170px] min-h-[170px] flex justify-center items-center">
-            <img src="../../../public/images/Logo_one.png" alt="one" />
+            <img src="../../../public/images/Logo_fov.png" alt="one" />
           </div>
           <div class="flex flex-col items-center mt-[20px] gap-[20px]">
             <p class="text-[#1B3764] text-[24px] font-[innes] font-bold">
