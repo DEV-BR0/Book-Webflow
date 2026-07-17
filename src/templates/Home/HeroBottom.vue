@@ -14,7 +14,7 @@ onMounted(async () => {
 <template>
   <div
     data-aos="fade-up"
-    class="flex  flex-col items-center w-full md:mt-[75px] mt-[30px]"
+    class="flex  flex-col items-center w-full md:mt-[75px] mt-[30px] gap-[50px]"
   >
     <h1
       class="text-[#1B3764] font-[innes] text-[23px] md:text-[46px] font-bold"
