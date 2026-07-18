@@ -1,7 +1,7 @@
 <template>
   <div data-aos="fade-up" class="flex flex-col gap-[30px] w-full">
     <div class="flex flex-col gap-[30px] w-full">
-      <div class="flex justify-center flex-col items-center w-full">
+      <div class="flex justify-center flex-col items-center w-full gap-[30px]">
         <div class="flex justify-center flex-col items-center gap-[30px]">
           <p class="md:text-[45px] text-[27px] text-[#1B3764] font-[innes]">
             Trusted by the Best
