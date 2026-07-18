@@ -3,7 +3,7 @@
     <div class="contenr">
 
       <div class="flex grow flex-col">
-        
+        <h2>Get Book Copy Today!</h2>
       </div>
     </div>
   </div>
