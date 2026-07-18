@@ -1,9 +1,15 @@
 <template>
+<<<<<<< HEAD
   <div class="flex flex-col gap-[30px]">
     <div class="flex justify-center flex-col items-center">
       <p class="md:text-[45px] text-[27px] text-[#1B3764] font-[innes]">
         Trusted by the Best
       </p>
+=======
+  <div data-aos="fade-up" class="flex flex-col gap-[30px]">
+    <div class="flex justify-center flex-col items-center gap-[30px]">
+      <p class="md:text-[45px] text-[27px] text-[#1B3764] font-[innes]">Trusted by the Best</p>
+>>>>>>> c52cf16a8a4dfc6f5f8b1b10e51ee008347ee603
       <div class="h-[2px] bg-[#FFCA42] w-[100%]"></div>
     </div>
     <div class="flex gap-[40px] flex-wrap justify-between">
@@ -84,5 +90,9 @@
         </div>
       </div>
     </div>
+<<<<<<< HEAD
   </div>
+=======
+  </div>  
+>>>>>>> c52cf16a8a4dfc6f5f8b1b10e51ee008347ee603
 </template>

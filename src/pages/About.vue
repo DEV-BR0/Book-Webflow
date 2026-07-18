@@ -1,4 +1,3 @@
 <template>
-  <h1>salom</h1>
-
-</template>
+  <h1>about</h1>
+</template> 
