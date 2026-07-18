@@ -14,6 +14,7 @@
         </p>
         <button class="border border-1 border-[#FFCA42] p-[20px] w-[60%] text-white transition-all duration-200 hover:rounded-xl ">Order Today</button>
       </div>
+      <div class="flex grow"><img src="../../../public/images/" alt=""></div>
     </div>
   </div>
 </template>
