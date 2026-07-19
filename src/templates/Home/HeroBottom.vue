@@ -28,7 +28,7 @@ onMounted(async () => {
         class="flex w-full justify-between"
       >
         <img :src="book.image" :alt="book.title" class="w-[300px] lg:w-auto" />
-        <div class="flex grow lg:flex-row flex-col">
+        <div class="flex grow lg:flex-row flex-col lg:flex hidden">
           <div class="flex flex-col gap-[20px] hidden md:flex">
             <p class="text-[#1B3764] md:text-[32px] text-[19px] font-bold">
               {{ book.title }}
