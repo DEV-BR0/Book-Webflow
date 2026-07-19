@@ -16,6 +16,7 @@
       </div>
       <div class="flex grow justify-end"><img src="../../../public/images/Photo.svg" alt="Photo" class="md:block hidden">
       </div>
+      <div class=""></div>
     </div>
   </div>
 </template>
