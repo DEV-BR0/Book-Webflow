@@ -17,6 +17,6 @@
       <div class="hidden md:flex justify-end items-center">
       <img src="../../../public/images/Photo.png" alt="">
     </div>
-    </div>
+    </div>  
   </div>
 </template>
