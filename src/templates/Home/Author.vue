@@ -50,6 +50,7 @@
         </div>
         <hr class="border-1 h-full text-[#FFCA42]" />
         <div class="flex flex-col grow">
+
           
           <p
             class="md:text-[55px] text-[26px] font-[innes] font-bold text-[#1B3764]"
