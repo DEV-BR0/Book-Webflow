@@ -2,6 +2,7 @@
 import Author from "../templates/Home/Author.vue";
 import Bast from "../templates/Home/Bast.vue";
 import GetBook from "../templates/Home/GetBook.vue";
+import Hdfs from "../templates/Home/Hdfs.vue";
 import Hero from "../templates/Home/Hero.vue";
 import HeroBottom from "../templates/Home/HeroBottom.vue";
 </script>
@@ -20,6 +21,7 @@ import HeroBottom from "../templates/Home/HeroBottom.vue";
         <Bast />
       </div>
       <GetBook />
+      <Hdfs />
     </div>
   </div>
 </template>
