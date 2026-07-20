@@ -20,5 +20,6 @@
       <img src="../../../public/images/Photo.png" alt="">
     </div>
     </div>  
+    </div>
   </div>
 </template>
