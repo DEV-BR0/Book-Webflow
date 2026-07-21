@@ -24,6 +24,4 @@ import HeroBottom from "../templates/Home/HeroBottom.vue";
       <Hdfs />
     </div>
   </div>
-
-  <h1>salom</h1>
 </template>
