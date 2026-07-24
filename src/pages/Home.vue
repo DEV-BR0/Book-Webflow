@@ -22,6 +22,7 @@ import HeroBottom from "../templates/Home/HeroBottom.vue";
       </div>
       <GetBook />
       <Hdfs />
+      
     </div>
   </div>
 </template>
